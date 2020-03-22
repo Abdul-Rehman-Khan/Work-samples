@@ -125,7 +125,6 @@ class TopicConfiguration extends Component {
 			);
 			return;
 		}
-
 		this.props.blurTitle();
 	};
 
