@@ -36,7 +36,7 @@ class TopicConfiguration extends Component {
 
 	columns = [
 		{
-			title: 'Name',
+		title: 'Name',
 			dataIndex: 'title',
 			width: '33%',
 			render: (title, row, index) => {
@@ -53,8 +53,8 @@ class TopicConfiguration extends Component {
 								}}
 							/>
 						) : (
-							<p onClick={() => this.onTitleClick(index)}>{title}</p>
-						)}
+								<p onClick={() => this.onTitleClick(index)}>{title}</p>
+							)}
 					</div>
 				);
 			}
